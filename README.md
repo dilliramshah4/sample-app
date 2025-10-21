@@ -18,7 +18,7 @@ This project demonstrates a complete DevOps pipeline with automated CI/CD, monit
 
 ##  Assignment Deliverables
 
-### Screenshot Locations:
+### Screenshot:
 - **Screenshot 1**: GitHub Actions workflow → [Repository Actions Tab](https://github.com/dilliramshah4/sample-app/actions)
   <img width="1903" height="950" alt="Screenshot 2025-10-21 154418" src="https://github.com/user-attachments/assets/3026493f-b965-4109-a3f5-6593b8f772b5" />
 
@@ -85,7 +85,7 @@ Build and run the application locally using Docker commands
 - AZURE_VM_PRIVATE_KEY: SSH private key
 - GRAFANA_PASSWORD: Secure password for Grafana
 
-## 📊 Monitoring Queries Available
+##  Monitoring Queries Available
 - Application health monitoring
 - Request rate tracking
 - Response time metrics
