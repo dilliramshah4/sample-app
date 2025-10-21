@@ -20,10 +20,20 @@ This project demonstrates a complete DevOps pipeline with automated CI/CD, monit
 
 ### Screenshot Locations:
 - **Screenshot 1**: GitHub Actions workflow → [Repository Actions Tab](https://github.com/dilliramshah4/sample-app/actions)
+  <img width="1903" height="950" alt="Screenshot 2025-10-21 154418" src="https://github.com/user-attachments/assets/3026493f-b965-4109-a3f5-6593b8f772b5" />
+
 - **Screenshot 2**: Live web app → http://57.159.29.158:8080
+ <img width="1917" height="865" alt="Screenshot 2025-10-21 154502" src="https://github.com/user-attachments/assets/09c2365a-0ed7-4460-9dc7-3b02dd1f786b" />
+
 - **Screenshot 3**: Grafana monitoring dashboard → http://57.159.29.158:3000
+  <img width="1916" height="1007" alt="Screenshot 2025-10-21 161105" src="https://github.com/user-attachments/assets/191be2d7-5bae-4874-9795-86a737596da0" />
+
 - **Screenshot 4**: Docker containers running → SSH to VM: `docker ps`
+ <img width="1912" height="856" alt="Screenshot 2025-10-21 161143" src="https://github.com/user-attachments/assets/9529853d-ace7-40a2-af4a-8b09549fa801" />
+
 - **Screenshot 5**: Security scan results → GitHub Actions logs (security-scan job)
+ <img width="1908" height="962" alt="Screenshot 2025-10-21 161358" src="https://github.com/user-attachments/assets/879460b0-2f00-4108-8e45-0d0eafa29484" />
+
 
 ##  Technical Implementation
 
@@ -81,7 +91,7 @@ Build and run the application locally using Docker commands
 - Response time metrics
 - System performance metrics
 
-## 🔧 Tools & Technologies Used
+##  Tools & Technologies Used
 - **CI/CD**: GitHub Actions
 - **Containerization**: Docker, Docker Compose
 - **Cloud Platform**: Microsoft Azure (Virtual Machine)
@@ -90,7 +100,7 @@ Build and run the application locally using Docker commands
 - **Web Framework**: Python Flask with Gunicorn
 - **Infrastructure**: Ubuntu Linux, SSH, Firewall rules
 
-## 📈 Key Achievements
+##  Key Achievements
  Automated CI/CD pipeline with 3-stage workflow  
  Live application deployment with zero-downtime updates  
  Comprehensive monitoring with custom metrics  
@@ -98,7 +108,7 @@ Build and run the application locally using Docker commands
  Cost-optimized infrastructure setup  
  Complete documentation and reproducible setup  
 
-## 🎯 Assignment Completion Status
+##  Assignment Completion Status
 - [x] Flask app with timestamp display
 - [x] Docker containerization
 - [x] GitHub Actions CI/CD pipeline
