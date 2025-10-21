@@ -70,8 +70,9 @@ jobs:
         echo "$AZURE_VM_KEY" > azure_key.pem
         chmod 600 azure_key.pem
         
-        echo "Copying all files to Azure VM"
-        scp -i azure_key.pem -o StrictHostKeyChecking=no -r . $AZURE_VM_USER@$AZURE_VM_HOST:~/drviki-app/
+        echo "Creating directory and copying files to Azure VM"
+        ssh -i azure_key.pem -o StrictHostKeyChecking=no $AZURE_VM_USER@$AZURE_VM_HOST "mkdir -p ~/drviki-app"
+        scp -i azure_key.pem -o StrictHostKeyChecking=no -r * $AZURE_VM_USER@$AZURE_VM_HOST:~/drviki-app/
         
         echo "Deploying complete stack (App + Monitoring)"
         ssh -i azure_key.pem -o StrictHostKeyChecking=no $AZURE_VM_USER@$AZURE_VM_HOST << EOF
